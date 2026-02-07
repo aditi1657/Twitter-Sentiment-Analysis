@@ -55,30 +55,24 @@ twitter-sentiment-analysis/
 git clone https://github.com/your-username/twitter-sentiment-analysis.git
 cd twitter-sentiment-analysis
 
-Install Dependencies
-
-Make sure Python is installed, then run:
+## Install Dependencies
+## Make sure Python is installed, then run:
 
 pip install -r requirements.txt
 
-3️⃣ Download the Dataset
-
-This project uses the Sentiment140 dataset from Kaggle.
-
-Create a Kaggle account
-
-Generate your Kaggle API key
-
-Place kaggle.json in your system
-
-Then run:
+### 3️⃣ Download the Dataset
+## This project uses the Sentiment140 dataset from Kaggle.
+## Create a Kaggle account
+## Generate your Kaggle API key
+## Place kaggle.json in your system
+## Then run:
 
 kaggle datasets download -d kazanova/sentiment140
 
 
-Extract the dataset before use.
-4️⃣ Run the Notebook
+## Extract the dataset before use.
+## 4️⃣ Run the Notebook
 jupyter notebook notebooks/Sentiment_Analysis.ipynb
 
-5️⃣ Output
+## 5️⃣ Output
 The model will predict whether a tweet has a positive or negative sentiment.
